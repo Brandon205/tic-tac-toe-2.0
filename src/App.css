@@ -26,6 +26,10 @@
   border: 1px solid black;
 }
 
+.winner {
+  background-color: lightblue;
+}
+
 #game-name {
   font-size: 2em;
   font-weight: bold;
