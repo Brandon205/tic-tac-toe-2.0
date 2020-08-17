@@ -5,8 +5,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Main App area</h1>
-      <GameBoard />
+      <h1 id="game-name">Tic-Tac-Toe</h1>
+      <div className="game">
+        <GameBoard />
+      </div>
     </div>
   );
 }
