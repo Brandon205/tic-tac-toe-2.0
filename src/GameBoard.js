@@ -45,9 +45,12 @@ export default function GameBoard() {
                 // e.target.textContent = turn ? "X" : "O" // For multiplayer games
                 e.target.textContent = "O"
                 checkWinner();
+                console.log(turn)
+                setTurn(true)
                 setMoves(moves + 1)
-                setTurn(!turn)
-                if (!turn && !win) {
+                console.log(turn)
+                if (turn && !win) {
+                    console.log("here")
                     bestMove()
                 }
             }
